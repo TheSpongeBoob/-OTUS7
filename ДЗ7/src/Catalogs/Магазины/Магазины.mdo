@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1bc016ee-bb3d-4553-beaf-f92cc97689f1">
+  <producedTypes>
+    <objectType typeId="0ae05173-c75b-469f-b887-b03f9bf2f488" valueTypeId="b81c36c4-bd8f-4193-9e94-d031acc56fcd"/>
+    <refType typeId="273d03b6-e950-4e2d-aaa7-c21914920799" valueTypeId="20642937-270e-4b0a-ae8f-48c36e53fb48"/>
+    <selectionType typeId="a50f62ad-d6bc-4968-8d14-12e5ef7a843c" valueTypeId="e1736a39-ae97-4efa-a7a2-27f33191898b"/>
+    <listType typeId="62359fc1-9ea7-4c11-b5ef-7c610013c74f" valueTypeId="7646e85f-a866-4971-96b7-ccd6d50a3de8"/>
+    <managerType typeId="42e04ebb-b12f-456d-a32f-7b7192d48834" valueTypeId="c6af5f89-a520-45ef-8ca0-6bb595a17646"/>
+  </producedTypes>
+  <name>Магазины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Магазины.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Магазины.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a74d3a27-8988-4fc3-8411-5ed066744c54">
+    <name>Улица</name>
+    <synonym>
+      <key>ru</key>
+      <value>Улица</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1b6af833-b51e-4fda-8fb8-3b9202becf78">
+    <name>КоличествоЭтажей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество этажей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="323b00f3-baa0-440b-97c2-14f21d6f0c96">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
