@@ -48,11 +48,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1b6af833-b51e-4fda-8fb8-3b9202becf78">
-    <name>КоличествоЭтажей</name>
+  <attributes uuid="323b00f3-baa0-440b-97c2-14f21d6f0c96">
+    <name>Дом</name>
     <synonym>
       <key>ru</key>
-      <value>Количество этажей</value>
+      <value>Дом</value>
     </synonym>
     <type>
       <types>String</types>
@@ -66,11 +66,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="323b00f3-baa0-440b-97c2-14f21d6f0c96">
-    <name>Дом</name>
+  <attributes uuid="1b6af833-b51e-4fda-8fb8-3b9202becf78">
+    <name>КоличествоЭтажей</name>
     <synonym>
       <key>ru</key>
-      <value>Дом</value>
+      <value>Количество этажей</value>
     </synonym>
     <type>
       <types>String</types>
